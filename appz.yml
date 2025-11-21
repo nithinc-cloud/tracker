@@ -1,17 +1,17 @@
 app:
   code: TRACKER
   name: Tracker
-  notify: appz@ecloucontrol.com
+ # notify: appz@ecloucontrol.com
   
 build:
   build_file: none
-  env: PROD
+  env: DEV
   image_template: mantis-2.27
   output_files: output/*.zip
   version: 2.24
   
 deploy:
-  context: ecloudcontrol/PROD
+  context: nithinc-cloud/DEV
   #ingress: none
   port:
   - 80
