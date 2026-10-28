@@ -6,7 +6,7 @@ app:
 build:
   build_file: none
   env: DEV
-  image_template: mantis-2.27
+  image_template: mantis-2.28
   output_files: output/*.zip
   version: 2.24
   
